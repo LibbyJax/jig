@@ -5,14 +5,15 @@
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "require": {
-        "php": "^7.3|^8.0",
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.2",
+        "inertiajs/inertia-laravel": "^0.6.8",
+        "laravel/framework": "^10.10",
+        "laravel/jetstream": "^3.2",
+        "laravel/sanctum": "^3.2",
+        "laravel/tinker": "^2.8",
+        "tightenco/ziggy": "^1.0"
         "fruitcake/laravel-cors": "^2.0",
-        "guzzlehttp/guzzle": "^7.0.1",
-        "inertiajs/inertia-laravel": "^v0.5.4",
-        "laravel/framework": "^9",
-        "laravel/jetstream": "^v2.7",
-        "laravel/sanctum": "^2.15",
-        "laravel/tinker": "^2.5",
         "savannabits/jetstream-inertia-generator": "^3.2",
         "tightenco/ziggy": "^1.0"
     },
